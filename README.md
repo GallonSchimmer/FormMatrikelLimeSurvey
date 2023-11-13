@@ -1,28 +1,24 @@
 # Umfrageformular für LimeSurvey
 
-Dieses einfache HTML-Formular ermöglicht es Benutzern, QR-Codes für LimeSurvey-Umfragen zu generieren. Folgen Sie den Schritten unten, um das Formular zu verwenden:
+Dies ist ein einfaches HTML-Formular, das QR-Codes für LimeSurvey-Umfragen generiert. Der Benutzer kann die Matrikel und die Sprache auswählen und erhält QR-Codes für die Umfrage mit den entsprechenden Parametern.
 
-1. Kopieren Sie den folgenden Link zur HTML-Datei:
-   [FormMatrikelLimeSurvey.html](https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html)
+## Verwendung
 
-2. Öffnen Sie den Link in einem neuen Tab:
-   [HTML-Vorschau auf htmlpreview.github.io](https://htmlpreview.github.io/)
+1. Kopieren Sie den folgenden Link zur HTML-Datei: [FormMatrikelLimeSurvey.html](https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html)
 
-3. Kopieren Sie den folgenden LimeSurvey-Link:
-   [https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de](https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de)
+2. Öffnen Sie einen neuen Tab und besuchen Sie den folgenden Link: [htmlpreview.github.io](https://htmlpreview.github.io/)
 
-4. Geben Sie Ihre Matrikelnummer in das entsprechende Eingabefeld ein.
+3. Fügen Sie den kopierten Link zur HTML-Datei in das Input-Feld auf der Seite ein und drücken Sie Enter.
 
-5. Wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü.
+4. Kopieren Sie den LimeSurvey-Link: [https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de](https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de)
 
-6. Klicken Sie auf den Button "QR-Codes generieren".
+5. Fügen Sie Ihre Matrikel in das entsprechende Feld im geöffneten Formular ein.
 
-Nach diesen Schritten werden die generierten QR-Codes unter dem Formular angezeigt. Beachten Sie, dass dieses Formular ein einfaches Beispiel ist und für produktive Umgebungen zusätzliche Sicherheitsüberlegungen und Validierungen erforderlich sind.
+6. Wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü.
 
-## Beispiel
+7. Klicken Sie auf den Button "QR-Codes generieren".
 
-Eine Beispiel-LimeSurvey-URL könnte sein: `https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de`
-
+8. Die generierten QR-Codes werden unter dem Formular angezeigt.
 
 
 
