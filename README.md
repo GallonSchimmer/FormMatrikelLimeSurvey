@@ -20,6 +20,32 @@ Dies ist ein einfaches HTML-Formular, das QR-Codes für LimeSurvey-Umfragen gene
 
 8. Die generierten QR-Codes werden unter dem Formular angezeigt.
 
+9. # LimeSurvey Survey Form
+
+This is a simple HTML form that generates QR codes for LimeSurvey surveys. Users can input their student ID and select a language to receive QR codes for the survey with the respective parameters.
+
+## Usage
+
+1. Copy the following link to the HTML file: [FormMatrikelLimeSurvey.html](https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html)
+
+2. Open a new tab and visit the following link: [htmlpreview.github.io](https://htmlpreview.github.io/)
+
+3. Paste the copied link to the HTML file into the input field on the page and press Enter.
+
+4. Copy the LimeSurvey link: [https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de](https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de)
+
+5. Enter your student ID in the corresponding field in the opened form.
+
+6. Choose your preferred language from the dropdown menu.
+
+7. Click the "Generate QR Codes" button.
+
+8. The generated QR codes will be displayed below the form.
+
+## Note
+
+
+
 
 
 
