@@ -29,12 +29,11 @@
             var sprache = document.getElementById("sprache").value;
 
             var baseUrl = prompt("Geben Sie die erste Hälfte der URL ein:");
+            var qrUrl = baseUrl + "&lang=" + sprache + "&m_id=" + matrikel;
 
-            var qrUrlDe = baseUrl + "&lang=de&m_id=" + matrikel;
-            var qrUrlEn = baseUrl + "&lang=en&m_id=" + matrikel;
-
-            document.getElementById("qrCodes").innerHTML = "<img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrlDe) + "' alt='QR-Code Deutsch'><br><img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrlEn) + "' alt='QR-Code Englisch'>";
+            document.getElementById("qrCodes").innerHTML = "<img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrl) + "' alt='QR-Code " + sprache + "'>";
         }
     </script>
 </body>
 </html>
+
