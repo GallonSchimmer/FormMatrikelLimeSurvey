@@ -4,7 +4,7 @@ Dies ist ein einfaches HTML-Formular, das QR-Codes für LimeSurvey-Umfragen gene
 
 ## Verwendung
 
-1. Kopieren Sie den folgenden Link zur HTML-Datei: [FormMatrikelLimeSurvey.html]([https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html](https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html))
+1. Kopieren Sie den folgenden Link zur HTML-Datei: [FormMatrikelLimeSurvey.html](https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html)
 
 2. Öffnen Sie einen neuen Tab und besuchen Sie den folgenden Link: [htmlpreview.github.io](https://htmlpreview.github.io/)
 
