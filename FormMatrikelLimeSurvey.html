@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umfrageformular</title>
+</head>
+<body>
+    <h1>Umfrageformular</h1>
+    <form id="surveyForm">
+        <label for="matrikel">Matrikel:</label>
+        <input type="text" id="matrikel" name="matrikel" required>
+
+        <label for="sprache">Sprache:</label>
+        <select id="sprache" name="sprache" required>
+            <option value="de">Deutsch</option>
+            <option value="en">Englisch</option>
+        </select>
+
+        <button type="button" onclick="generateQR()">QR-Codes generieren</button>
+    </form>
+
+    <div id="qrCodes"></div>
+
+    <script>
+        function generateQR() {
+            var matrikel = document.getElementById("matrikel").value;
+            var sprache = document.getElementById("sprache").value;
+
+            var baseUrl = prompt("Geben Sie die erste Hälfte der URL ein:");
+
+            var qrUrlDe = baseUrl + "&lang=de&m_id=" + matrikel;
+            var qrUrlEn = baseUrl + "&lang=en&m_id=" + matrikel;
+
+            document.getElementById("qrCodes").innerHTML = "<img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrlDe) + "' alt='QR-Code Deutsch'><br><img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrlEn) + "' alt='QR-Code Englisch'>";
+        }
+    </script>
+</body>
+</html>
