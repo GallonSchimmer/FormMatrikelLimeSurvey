@@ -5,16 +5,16 @@ Dies ist ein einfaches HTML-Formular, das QR-Codes für LimeSurvey-Umfragen gene
 ## Verwendung
 
 1. Öffnen Sie den folgenden Link: https://htmlpreview.github.io/?
-
-2. Füllen Sie das Formular aus:
+2. Fügen Sie dieses Link in Input Feld ein: https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html
+3. Füllen Sie das Formular aus:
    - Geben Sie Ihre Matrikelnummer in das Feld "Matrikel" ein.
    - Wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü "Sprache" aus.
 
-3. Klicken Sie auf den Button "QR-Codes generieren".
+5. Klicken Sie auf den Button "QR-Codes generieren".
 
-4. Geben Sie die erste Hälfte der LimeSurvey-URL in das Popup-Fenster ein und bestätigen Sie.
+6. Geben Sie die erste Hälfte der LimeSurvey-URL in das Popup-Fenster ein und bestätigen Sie.
 
-5. Die generierten QR-Codes werden unter dem Formular angezeigt.
+7. Die generierten QR-Codes werden unter dem Formular angezeigt.
 
 ## Beispiel
 
