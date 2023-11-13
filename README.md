@@ -4,7 +4,7 @@ Dies ist ein einfaches HTML-Formular, das QR-Codes für LimeSurvey-Umfragen gene
 
 ## Verwendung
 
-1. Öffnen Sie den folgenden Link: [[Umfrageformular auf htmlpreview.github.io](https://htmlpreview.github.io/?https://github.com/GallonSchimmer/FormMatrikelLimeSurvey/blob/main/index.html)](https://htmlpreview.github.io/)
+1. Öffnen Sie den folgenden Link: https://htmlpreview.github.io/?
 
 2. Füllen Sie das Formular aus:
    - Geben Sie Ihre Matrikelnummer in das Feld "Matrikel" ein.
