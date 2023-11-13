@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umfrageformular</title>
+    <title>Umfrageformular für LimeSurvey</title>
 </head>
 <body>
-    <h1>Umfrageformular</h1>
+    <h1>Umfrageformular für LimeSurvey</h1>
+    
+    <!-- Usage Instructions -->
+    <div id="usageInstructions">
+        <h2>Verwendung</h2>
+        <ol>
+            <li>Kopieren Sie den folgenden Link zur HTML-Datei: <a href="https://github.com/GallonSchimmer/FormMatrikelLimeSurveyTemplate/blob/main/FormMatrikelLimeSurvey.html" target="_blank">FormMatrikelLimeSurvey.html</a></li>
+            <li>Öffnen Sie einen neuen Tab und besuchen Sie den folgenden Link: <a href="https://htmlpreview.github.io/" target="_blank">htmlpreview.github.io</a></li>
+            <li>Fügen Sie den kopierten Link zur HTML-Datei in das Input-Feld auf der Seite ein und drücken Sie Enter.</li>
+            <li>Kopieren Sie den LimeSurvey-Link: <a href="https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de" target="_blank">https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de</a></li>
+            <li>Fügen Sie Ihre Matrikel in das entsprechende Feld im geöffneten Formular ein.</li>
+            <li>Wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü.</li>
+            <li>Klicken Sie auf den Button "QR-Codes generieren".</li>
+            <li>Die generierten QR-Codes werden unter dem Formular angezeigt.</li>
+        </ol>
+    </div>
+
+    <!-- Umfrageformular -->
     <form id="surveyForm">
         <label for="matrikel">Matrikel:</label>
         <input type="text" id="matrikel" name="matrikel" required>
@@ -35,5 +52,7 @@
         }
     </script>
 </body>
+</html>
+
 </html>
 
