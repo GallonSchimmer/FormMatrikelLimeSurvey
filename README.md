@@ -32,15 +32,15 @@ This is a simple HTML form that generates QR codes for LimeSurvey surveys. Users
 
 3. Paste the copied link to the HTML file into the input field on the page and press Enter.
 
-4. Copy the LimeSurvey link: [https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de](https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de)
+4. Copy the LimeSurvey link: https://surveys.ak.tu-berlin.de/index.php/492863?newtest=Y&lang=en
+   
+6. Enter your student ID in the corresponding field in the opened form.
 
-5. Enter your student ID in the corresponding field in the opened form.
+7. Choose your preferred language from the dropdown menu.
 
-6. Choose your preferred language from the dropdown menu.
+8. Click the "Generate QR Codes" button.
 
-7. Click the "Generate QR Codes" button.
-
-8. The generated QR codes will be displayed below the form.
+9. The generated QR codes will be displayed below the form.
 
 ## Note
 
