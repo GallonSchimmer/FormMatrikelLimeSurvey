@@ -10,7 +10,7 @@ Dies ist ein einfaches HTML-Formular, das QR-Codes für LimeSurvey-Umfragen gene
 
 3. Fügen Sie den kopierten Link zur HTML-Datei in das Input-Feld auf der Seite ein und drücken Sie Enter.
 
-4. Kopieren Sie den LimeSurvey-Link: [https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de](https://surveys.ak.tu-berlin.de/index.php/182878?newtest=Y&lang=de)
+4. Kopieren Sie den LimeSurvey-Link: https://surveys.ak.tu-berlin.de/index.php/492863?newtest=Y&lang=en
 
 5. Fügen Sie Ihre Matrikel in das entsprechende Feld im geöffneten Formular ein.
 
