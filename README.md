@@ -17,7 +17,7 @@ Dies ist ein einfaches HTML-Formular, das QR-Codes für LimeSurvey-Umfragen gene
 6. Wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü.
 
 7. Klicken Sie auf den Button "QR-Codes generieren".
-
+ 
 8. Die generierten QR-Codes werden unter dem Formular angezeigt.
 
 9. # LimeSurvey Survey Form
