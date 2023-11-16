@@ -44,6 +44,49 @@ This is a simple HTML form that generates QR codes for LimeSurvey surveys. Users
 
 ## Note
 
+Below is the syntax form of the code with placeholders for user instructions:
+
+```javascript
+<script>
+    // Function to generate QR codes
+    function generateQR() {
+        // Get values from input fields
+        var matrikel = document.getElementById("matrikel").value;
+        var sprache = document.getElementById("sprache").value;
+
+        // Prompt user for the first half of the LimeSurvey URL
+        var baseUrl = prompt("Enter the first half of the LimeSurvey URL:");
+
+        // Construct the complete URL for generating QR code
+        var qrUrl = baseUrl + "&lang=" + sprache + "&m_id=" + matrikel;
+
+        // Display the generated QR code below the form
+        document.getElementById("qrCodes").innerHTML = "<img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrl) + "' alt='QR-Code " + sprache + "'>";
+    }
+</script>
+```
+
+Explanation:
+
+- `var matrikel = document.getElementById("matrikel").value;`:
+  - **Tool Used:** `document.getElementById`: JavaScript DOM (Document Object Model) method to get the HTML element with the specified ID.
+  - **Purpose:** Retrieves the value entered by the user in the input field with the ID "matrikel."
+
+- `var sprache = document.getElementById("sprache").value;`:
+  - **Tool Used:** `document.getElementById`: JavaScript DOM method.
+  - **Purpose:** Retrieves the value selected by the user in the dropdown menu with the ID "sprache."
+
+- `var baseUrl = prompt("Enter the first half of the LimeSurvey URL:");`:
+  - **Tool Used:** `prompt`: JavaScript function that displays a dialog box with a message and an input field, prompting the user for input.
+  - **Purpose:** Prompts the user to enter the first half of the LimeSurvey URL.
+
+- `var qrUrl = baseUrl + "&lang=" + sprache + "&m_id=" + matrikel;`:
+  - **Purpose:** Constructs the complete URL for generating the QR code by combining the user-provided base URL, language, and Matrikel number.
+
+- `document.getElementById("qrCodes").innerHTML = "<img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrl) + "' alt='QR-Code " + sprache + "'>";`:
+  - **Tool Used:** `document.getElementById` and `innerHTML`: JavaScript DOM methods.
+  - **Purpose:** Updates the HTML content of an element with the ID "qrCodes" to include an image tag with the dynamically generated QR code. The `encodeURIComponent` function ensures proper encoding of the URL for inclusion in the HTML.
+
 
 
 
