@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umfrageformular für LimeSurvey</title>
 </head>
 <body>
+    <!-- Header Section -->
     <h1>Umfrageformular für LimeSurvey</h1>
     
-    <!-- Usage Instructions -->
+    <!-- Usage Instructions Section -->
     <div id="usageInstructions">
         <h2>Verwendung</h2>
         <ol>
+            <!-- Step-by-step usage instructions -->
             <li>Kopieren Sie den LimeSurvey-Link: <a href="https://surveys.ak.tu-berlin.de/index.php/492863?newtest=Y&lang=en" target="_blank">Link to your Survey</a></li>
             <li>Fügen Sie Ihre Matrikel in das entsprechende Feld im geöffneten Formular ein.</li>
             <li>Wählen Sie Ihre bevorzugte Sprache aus dem Dropdown-Menü.</li>
             <li>Klicken Sie auf den Button "QR-Codes generieren".</li>
-			<li>Fügen Sie Ihre LimeSurvey-Link in das entsprechende Feld im geöffneten Formular ein.</li>
+            <li>Fügen Sie Ihre LimeSurvey-Link in das entsprechende Feld im geöffneten Formular ein.</li>
             <li>Die generierten QR-Codes werden unter dem Formular angezeigt.</li>
         </ol>
     </div>
 
-    <!-- Umfrageformular -->
+    <!-- Survey Form Section -->
     <form id="surveyForm">
+        <!-- Input field for Matrikel number -->
         <label for="matrikel">Matrikel:</label>
         <input type="text" id="matrikel" name="matrikel" required>
 
+        <!-- Dropdown for language selection -->
         <label for="sprache">Sprache:</label>
         <select id="sprache" name="sprache" required>
             <option value="de">Deutsch</option>
             <option value="en">Englisch</option>
         </select>
 
+        <!-- Button to trigger QR code generation -->
         <button type="button" onclick="generateQR()">QR-Codes generieren</button>
     </form>
 
+    <!-- Container to display generated QR codes -->
     <div id="qrCodes"></div>
 
+    <!-- JavaScript Section -->
     <script>
+        // Function to generate QR codes
         function generateQR() {
+            // Get values from input fields
             var matrikel = document.getElementById("matrikel").value;
             var sprache = document.getElementById("sprache").value;
 
+            // Prompt user for the first half of the LimeSurvey URL
             var baseUrl = prompt("Geben Sie die erste Hälfte der URL ein:");
+
+            // Construct the complete URL for generating QR code
             var qrUrl = baseUrl + "&lang=" + sprache + "&m_id=" + matrikel;
 
+            // Display the generated QR code below the form
             document.getElementById("qrCodes").innerHTML = "<img src='https://api.qrserver.com/v1/create-qr-code/?data=" + encodeURIComponent(qrUrl) + "' alt='QR-Code " + sprache + "'>";
         }
     </script>
 </body>
 </html>
 
-</html>
 
